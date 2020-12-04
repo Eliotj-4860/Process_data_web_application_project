@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/Predict.css') }}" />
+    <script src="/static/js/Predict.js" defer></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <title>Predict</title>
+    <script
+      src="https://kit.fontawesome.com/2d323a629b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+  <header>
+    <!-- Nav container -->
+    <nav class="navbar">
+      <!-- Logo with text -->
+      <div class="navbar__logo">
+        <a id="name" href="Home" >
+        <img class="Logo" src="/static/img/Logo1.png">
+        </a>
+      </div>
+      <!-- Menu -->
+      <ul class="navbar__menu">
+       <li><a href="Monitoring">MONITORING</a></li>
+        <li><a href="Machine">MACHINE</a></li>
+        <li><a href="Quality">QUALITY</a></li>
+        <li><a href="Search">SEARCH</a></li>
+        <li><a href="Analysis_OP10">ANALYSIS</a></li>
+        <li><a href="Predict">PREDICT</a></li>
+      </ul>
+      <!-- Icons -->
+      <ul class="navbar__Logout">
+        <li><a href="logout">Log Out</a></li>
+      </ul>
+      <!-- Toggle button -->
+    <a href="#" class="navbar__toggleBtn">
+    <i class="fas fa-bars"></i>
+    </a>
+  </nav>
+</header>
+<main>
+  <div id="AA">
+    <p id = "Siz">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;실시간 예측 데이터</p>
+       <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="/static/js/Predict.js" ></script>
+    <link href="https://nightly.datatables.net/css/jquery.dataTables.css" rel="stylesheet" type="text/css" />
+    <script src="https://nightly.datatables.net/js/jquery.dataTables.js"></script>
+    <requestLimits maxQueryString="32768" />
+    <div class="container" style="width:100%; overflow:auto">
+      <table id="coinTable" class="display nowrap" width="100%">
+        <thead>
+          <tr>
+            <th>Productkey</th>
+            <th>BY L</th>
+            <th>BY W</th>
+            <th>BY H</th>
+            <th>WF L</th>
+            <th>WF W</th>
+            <th>WF H</th>
+            <th>EL 10</th>
+            <th>OP10L</th>
+            <th>OP10W</th>
+            <th>OP10H</th>
+            <th>P1 L</th>
+            <th>P1 W</th>
+            <th>P1 H</th>
+            <th>EL 20</th>
+            <th>OP20L</th>
+            <th>OP20W</th>
+            <th>OP20H</th>
+            <th>P2 L</th>
+            <th>P2 W</th>
+            <th>P2 H</th>
+            <th>EL 30</th>
+            <th>OP30L</th>
+            <th>OP30W</th>
+            <th>OP30H</th>
+            <th>Predict result</th>
+          </tr>
+        </thead>
+      </table>
+    </div>
+  </div>
+</main>
+</body>
+</html>

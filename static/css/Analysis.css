@@ -1,0 +1,180 @@
+/* Global */
+:root {
+  --text-color: #f0f4f5;
+  --background-color: #263343;
+  --accent-color: #d49466;
+}
+
+* {
+  /* Tells the browser to account for any border and 
+            padding in the values you specify for an element's 
+            width and height. */
+  box-sizing: border-box;
+}
+
+body {
+  width: 1515px;
+  margin: 0;
+  font-family: "Source Sans Pro";
+}
+main {
+  font-family: "Source Sans Pro";
+  columns: 2;
+}
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+/* Nav container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  background-color: var(--background-color);
+}
+
+/* Logo with text */
+.navbar__logo {
+  font-size: 24px;
+  color: var(--text-color);
+}
+
+.navbar__logo i {
+  color: var(--accent-color);
+}
+
+/* Menu */
+.navbar__menu {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+
+.navbar__menu li {
+  padding: 8px 12px;
+}
+
+.navbar__menu li:hover {
+  background-color: var(--accent-color);
+  border-radius: 4px;
+}
+.navbar__Logout {
+  list-style: none;
+  color: var(--text-color);
+  display: flex;
+  padding-left: 0;
+}
+
+/* Icons */
+.navbar__Logout li {
+  padding: 8px 12px;
+}
+
+/* Toggle button */
+.navbar__toggleBtn {
+  display: none;
+  position: absolute;
+  right: 32px;
+  font-size: 24px;
+  color: var(--accent-color);
+}
+
+
+
+#AA {
+  height: 380px;
+  width: 1350px;
+  float: left;
+  color: red;
+  padding-top: 0%;
+}
+#SS {
+  height: 400px;
+  width: 450px;
+  float: left;
+  padding-top: 0%;
+}
+#TT {
+  height: 400px;
+  width: 450px;
+  float: left;
+}
+#UU {
+  height: 400px;
+  width: 450px;
+  float: left;
+}
+#BB {
+  width: 1300px;
+  height: 450px;
+  color: green;
+  float: left;
+}
+#CC {
+  width: 150px;
+  height: 830px;
+  float: right;
+}
+.Logo {
+  width: 70px;
+  height: 60px;
+}
+
+.highcharts-figure,
+.highcharts-data-table table {
+  min-width: 450px;
+  max-width: 450px;
+  margin: 1em auto;
+}
+
+.highcharts-data-table table {
+  font-family: Verdana, sans-serif;
+  border-collapse: collapse;
+  border: 1px solid #ebebeb;
+  margin: 10px auto;
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+  float: left;
+}
+.highcharts-data-table caption {
+  padding: 1em 0;
+  font-size: 1.2em;
+  color: #555;
+}
+.highcharts-data-table th {
+  font-weight: 600;
+  padding: 0.5em;
+}
+.highcharts-data-table td,
+.highcharts-data-table th,
+.highcharts-data-table caption {
+  padding: 0.5em;
+}
+.highcharts-data-table thead tr,
+.highcharts-data-table tr:nth-child(even) {
+  background: #f8f8f8;
+}
+.highcharts-data-table tr:hover {
+  background: #f1f7ff;
+}
+
+.highcharts-figure4 {
+  min-width: 1350px;
+  max-width: 1350px;
+  margin: 1em auto;
+  float: left;
+}
+
+.button {
+  font-size: 20px;
+  padding: 20px 30px;
+  border-radius: 27px;
+  position: absolute;
+  left: 1390px;
+}
+#Search {
+  float: right;
+}

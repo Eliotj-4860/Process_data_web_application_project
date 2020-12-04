@@ -1,0 +1,240 @@
+/* Global */
+:root {
+  --text-color: #f0f4f5;
+  --background-color: #263343;
+  --accent-color: #d49466;
+}
+
+* {
+  /* Tells the browser to account for any border and 
+        padding in the values you specify for an element's 
+        width and height. */
+  box-sizing: border-box;
+}
+
+body {
+  width: 1515px;
+  height: 705px;
+  margin: 0;
+  font-family: "Source Sans Pro";
+}
+main {
+  font-family: "Source Sans Pro";
+  columns: 2;
+}
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+/* Nav container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  background-color: var(--background-color);
+}
+
+/* Logo with text */
+.navbar__logo {
+  font-size: 24px;
+  color: var(--text-color);
+}
+
+.navbar__logo i {
+  color: var(--accent-color);
+}
+
+/* Menu */
+.navbar__menu {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+
+.navbar__menu li {
+  padding: 8px 12px;
+}
+
+.navbar__menu li:hover {
+  background-color: var(--accent-color);
+  border-radius: 4px;
+}
+.navbar__Logout {
+  list-style: none;
+  color: var(--text-color);
+  display: flex;
+  padding-left: 0;
+}
+
+/* Icons */
+.navbar__Logout li {
+  padding: 8px 12px;
+}
+
+/* Toggle button */
+.navbar__toggleBtn {
+  display: none;
+  position: absolute;
+  right: 32px;
+  font-size: 24px;
+  color: var(--accent-color);
+}
+
+
+#AA {
+  height: 300px;
+  width: 1250px;
+  float: left;
+  color: black;
+  box-sizing: 800px 400px;
+}
+
+#aa {
+  font-size: 25px;
+}
+
+#B {
+  width: 1250px;
+  height: 477px;
+  color: black;
+  float: left;
+}
+
+#bb {
+  font-size: 25px;
+}
+
+#bbbb {
+  width: 1100px;
+  position: relative;
+  height: 250px;
+  overflow: hidden;
+  max-width: 300%;
+  left: 0;
+  padding: 0%;
+}
+
+#CC {
+  width: 350px;
+  height: 677px;
+  color: black;
+  float: right;
+  border-block: 0;
+  left: 10%;
+}
+#DD {
+  width: 300px;
+  height: 40px;
+  color: black;
+  padding: 0;
+  line-height: 0%;
+}
+#EGR {
+  padding: 0;
+  font-size: 40px;
+  float: none;
+  text-align: center;
+  line-height: 0%;
+}
+
+#EE {
+  padding: 0;
+  width: 300px;
+  height: 100px;
+  color: black;
+}
+#file {
+  width: 300px;
+  height: 100px;
+}
+#FF {
+  padding: 0;
+  width: 300px;
+  height: 70px;
+  color: black;
+  line-height: 0%;
+}
+#GG {
+  padding: 0;
+  width: 300px;
+  height: 70px;
+  color: black;
+  line-height: 0%;
+}
+
+#egr1 {
+  padding: 0;
+  font-size: 60px;
+  float: none;
+  text-align: center;
+  line-height: 0%;
+}
+#egr2 {
+  padding: 0;
+  font-size: 60px;
+  float: none;
+  text-align: center;
+  line-height: 0%;
+}
+
+.highcharts-figure .chart-container {
+  width: 270px;
+  height: 200px;
+  float: left;
+}
+
+.highcharts-figure,
+.highcharts-data-table table {
+  width: 1100px;
+  margin: 0 auto;
+  float: left;
+}
+
+.highcharts-data-table table {
+  font-family: Verdana, sans-serif;
+  border-collapse: collapse;
+  border: 1px solid #ebebeb;
+  margin: 10px auto;
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+}
+.highcharts-data-table caption {
+  padding: 1em 0;
+  font-size: 1.2em;
+  color: #555;
+}
+.highcharts-data-table th {
+  font-weight: 600;
+  padding: 0.5em;
+}
+.highcharts-data-table td,
+.highcharts-data-table th,
+.highcharts-data-table caption {
+  padding: 0.5em;
+}
+.highcharts-data-table thead tr,
+.highcharts-data-table tr:nth-child(even) {
+  background: #f8f8f8;
+}
+.highcharts-data-table tr:hover {
+  background: #f1f7ff;
+}
+
+@media (max-width: 600px) {
+  .highcharts-figure,
+  .highcharts-data-table table {
+    width: 100%;
+  }
+  .highcharts-figure .chart-container {
+    width: 300px;
+    float: none;
+    margin: 0 auto;
+  }
+}
+.Logo {
+  width: 70px;
+  height: 60px;
+}
